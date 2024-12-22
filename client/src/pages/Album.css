@@ -1,0 +1,123 @@
+.album-buttons {
+  background-color: #333333;
+  border-radius: 10px;
+  width: 100%;
+  height: wrap;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.album-buttons button {
+  background-color: #ffe900;
+  color: #333333;
+  border: none;
+  border-radius: 500px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 46px;
+  cursor: pointer;
+}
+.album-buttons button:last-child {
+  margin-bottom: 0px;
+}
+
+.about-album {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: wrap;
+}
+
+.album-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  height: 266px;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.album-cover {
+  position: relative;
+  display: block;
+  width: 266px;
+  height: 266px;
+  margin-right: 10px;
+}
+
+.album-cover img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.left-block-ap {
+  background-color: #222222;
+  width: 30vw;
+  height: 82vh;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.album-info h4 {
+  margin-bottom: 12px;
+}
+
+.album-info h6 {
+  margin-bottom: 10px;
+}
+
+.release-date,
+.duration,
+.genre {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 500px;
+}
+
+.album-description {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  position: relative;
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.left-block-ap .icon {
+  position: relative;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.left-block-ap .icon:hover {
+  color: #ffe900;
+}

@@ -1,0 +1,159 @@
+.filters-bar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-dropdown {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.dropdown-header {
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  border-radius: 500px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 0;
+  left: 101%;
+  width: 200px;
+  height: 112px;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.dropdown-list-scroll {
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.dropdown-option {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.about-collection-s {
+  background-color: #333333;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  padding-top: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.about-search-s {
+  background-color: #333333;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.dropdown-option:hover {
+  background-color: #444;
+}
+
+.dropdown-list-scroll::-webkit-scrollbar {
+  width: 16px;
+  height: 86vh;
+}
+
+.dropdown-list-scroll::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.dropdown-list-scroll::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 0px;
+  height: 23px;
+}
+
+.dropdown-list-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dropdown-option.selected {
+  color: #ffe900;
+}
+
+.search-bar {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.search-bar input {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #333333;
+  color: white;
+  border: 2px solid transparent;
+  padding: 12px;
+  border-radius: 500px;
+  outline: none;
+  cursor: text;
+}
+
+.search-bar input:focus {
+  border: 2px solid #cdcdcd;
+  color: white;
+}
+.album-author {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.album-author button {
+  width: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 46px;
+  border-radius: 500px;
+  background-color: #333;
+  border-style: none;
+  color: white;
+}
+
+.album-author button:last-child {
+  margin-right: 0px;
+}
+
+.album-author button:hover {
+  border: 2px solid #cdcdcd;
+}

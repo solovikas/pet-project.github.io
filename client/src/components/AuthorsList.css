@@ -1,0 +1,50 @@
+.authors-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.author-item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+}
+
+.author-item h6 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.author-item-img {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.author-item-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+.icon-heart-au {
+  position: absolute;
+  color: #ffe900;
+  top: 12px;
+  right: 12px;
+}
