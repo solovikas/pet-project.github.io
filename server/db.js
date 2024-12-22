@@ -11,8 +11,7 @@ const sequelize = new Sequelize(
   }
 );
 
-// Синхронизация моделей
-sequelize.sync({ force: false }) // 'force' должен быть установлен в false
+sequelize.sync({ force: false }) 
   .then(() => {
     console.log("Database is synchronized!");
   })
