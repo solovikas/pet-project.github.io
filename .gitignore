@@ -29,4 +29,6 @@ server/migrations
 
 server/.env
 
-
+client/.env
+client/build/
+node_modules/
