@@ -84,6 +84,7 @@
 .upload-new {
   position: absolute;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: baseline;
   width: 160px;

@@ -6,6 +6,12 @@ import AuthorsList from "../components/AuthorsList";
 import TracksList from "../components/TracksList";
 import "./Admin.css";
 import { fetchAlbums, fetchAuthors } from "../http/contentAPI";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPencilAlt,
+  faArrowUpFromBracket,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Admin = () => {
   /*const [userOptions, setUserOptions] = useState([]);
@@ -80,7 +86,26 @@ const Admin = () => {
   return (
     <div className="page-structure">
       <div className="left-block">
-        <div className="admin-info"></div>
+        <div className="admin-info">
+          <div className="photo-block">
+            <div className="photo"></div>
+            <div className="upload-new" style={{ fontSize: "14px" }}>
+              Upload
+              <FontAwesomeIcon
+                icon={faArrowUpFromBracket}
+                style={{
+                  fontSize: "12px",
+                  margin: "0px",
+                  marginLeft: "8px",
+                }}
+              />
+            </div>
+          </div>
+          <div className="info">
+            <h5>Hello, admin!</h5>
+            <span>admin_example@gmail.com</span>
+          </div>
+        </div>
         <div className="admin-options">
           <CustomDropdown
             options={userOptions}

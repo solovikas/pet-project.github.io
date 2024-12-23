@@ -15,7 +15,7 @@
 
 .dropdown-header {
   padding: 12px;
-  background-color: #333;
+  background-color: #262626;
   color: white;
   font-size: 16px;
   border-radius: 500px;
@@ -32,7 +32,7 @@
   left: 101%;
   width: 200px;
   height: 112px;
-  background-color: #333;
+  background-color: #262626;
   color: white;
   border-radius: 10px;
   z-index: 1000;
@@ -78,7 +78,7 @@
 }
 
 .dropdown-option:hover {
-  background-color: #444;
+  background-color: #363636;
 }
 
 .dropdown-list-scroll::-webkit-scrollbar {
@@ -92,13 +92,13 @@
 }
 
 .dropdown-list-scroll::-webkit-scrollbar-thumb {
-  background: #444;
+  background: #363636;
   border-radius: 0px;
   height: 23px;
 }
 
 .dropdown-list-scroll::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #444;
 }
 
 .dropdown-option.selected {
